@@ -1,4 +1,4 @@
-Projeto complementar do curso da Newtab Academy CRUD de usuários, utilizando json-server e API ViaCEP.
+Projeto complementar do curso da Newtab Academy envolvendo CRUD de usuários, utilizando json-server e a API ViaCEP.
 
 Json-server está configurado com delay de 2000ms para simular o tempo de resposta.
 
