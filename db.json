@@ -1,0 +1,56 @@
+{
+  "usuarios": [
+    {
+      "nome": "João da Silva Sauro",
+      "cpf": "123.456.789-10",
+      "email": "joao.sauro@yahoo.com.br",
+      "endereco": {
+        "cep": 13974224,
+        "rua": "Rua Casimiro de Abreu",
+        "numero": 456,
+        "bairro": "Nova Itapira",
+        "cidade": "Itapira"
+      },
+      "id": "14fb"
+    },
+    {
+      "id": "d588",
+      "nome": "Homer Simpson",
+      "cpf": "987.654.321-00",
+      "email": "homer.simpson@fox.com",
+      "endereco": {
+        "cep": 13974226,
+        "rua": "Rua Cruz e Souza",
+        "numero": 55,
+        "bairro": "Nova Itapira",
+        "cidade": "Itapira"
+      }
+    },
+    {
+      "nome": "André Luís de Mello Rosatto",
+      "cpf": "285.758.318-44",
+      "email": "linus1178@gmail.com",
+      "endereco": {
+        "cep": 13974222,
+        "rua": "Rua Olavo Bilac",
+        "numero": 139,
+        "bairro": "Nova Itapira",
+        "cidade": "Itapira"
+      },
+      "id": "VCpgKqP"
+    },
+    {
+      "nome": "Bart Simpson",
+      "cpf": "999.888.777-66",
+      "email": "bart_simpson@fox.com",
+      "endereco": {
+        "cep": 13974230,
+        "rua": "Rua Cristóvão Colombo",
+        "numero": 1234,
+        "bairro": "Nova Itapira",
+        "cidade": "Itapira"
+      },
+      "id": "KvZ9eSl"
+    }
+  ]
+}

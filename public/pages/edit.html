@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="We're Only Humans: Novo humano">
+	<title>We're Only Humans: Novo humano</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/edit.css">
+	<script type="module" src="../js/edit.js"></script>
+</head>
+
+<body>
+	<div id="main-wrapper">
+		<header>
+			<div id="login-info">
+				<p>Logado como: <span id="login-name"></span></p>
+				<a id="btn-logout" href="javascript:void(0)">Logout</a>
+			</div>
+			<h1>We're Only Humans</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="./listing.html">Listagem</a>
+					</li>
+					<li class="disabled">
+						<a href="javascript:void(0)">Novo humano</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<p id="add-response">Humano adicionado</p>
+			<form>
+				<h2>Novo humano</h2>
+				<h3>Dados pessoais</h3>
+				<label>Nome:<input type="text" name="name" id="name" required></label>
+				<label>CPF:<input type="tel" name="cpf" id="cpf" minlength="14" required></label>
+				<label>E-mail:<input type="email" name="email" id="email" required></label>
+				<h3>Endereço</h3>
+				<label>CEP:<input type="tel" name="postcode" id="postcode" required></label>
+				<p id="postcode-error">CEP inválido</p>
+				<label>Logradouro:<input type="text" name="street" id="street" disabled required></label>
+				<label>Número:<input type="tel" name="number" id="number" minlength="1" required></label>
+				<label>Bairro:<input type="text" name="district" id="district" disabled required></label>
+				<label>Cidade:<input type="text" name="city" id="city" disabled required></label>
+				<button></button>
+			</form>
+		</section>
+	</div>
+</body>
+
+</html>

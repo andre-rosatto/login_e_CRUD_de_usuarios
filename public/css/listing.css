@@ -1,0 +1,60 @@
+header {
+	padding: 20px 0;
+}
+
+#search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	gap: 5px;
+}
+
+#search input {
+	width: 300px;
+}
+
+table {
+	width: 100%;
+	margin-top: 10px;
+	border-collapse: collapse;
+}
+
+table thead {
+	background-color: var(--header-bg);
+	color: var(--color4);
+}
+
+table th {
+	border-right: 1px solid var(--bg);
+	text-align: left;
+}
+
+table th:last-child {
+	border-right: none;
+}
+
+table th,
+table td {
+	padding: 0 5px;
+}
+
+table tbody tr {
+	background-color: rgba(255, 255, 255, .7);
+}
+
+table tbody tr:nth-child(even) {
+	background-color: rgba(255, 255, 255, .5);
+}
+
+table tbody td:nth-child(2) {
+	width: 20ch;
+}
+
+table tbody td:nth-child(5) {
+	width: 95px;
+}
+
+table span.address::after {
+	content: ' - ';
+}

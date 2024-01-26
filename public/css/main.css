@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+:root {
+	--bg: #9DAAF2;
+	--header-bg: #1A2238;
+	--color3: #FF6A3D;
+	--color4: #F4DB7D;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Dosis', sans-serif;
+}
+
+html {
+	background-color: var(--bg);
+}
+
+header {
+	position: sticky;
+	background-color: var(--header-bg);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--color3);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+header #login-info {
+	display: flex;
+	color: var(--color4);
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	gap: 10px;
+}
+
+header #login-info p {
+	border-right: 1px solid var(--color4);
+	padding-right: 10px;
+}
+
+header #login-info a {
+	text-decoration: none;
+	color: var(--color3);
+}
+
+nav ul {
+	display: grid;
+	grid-template-columns: 150px 150px;
+	gap: 25px;
+	margin-top: 30px;
+}
+
+nav ul li {
+	list-style: none;
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, .5);
+	background-color: rgba(255, 255, 255, .75);
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	border-radius: 3px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	width: 100%;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li.disabled a {
+	color: rgba(0, 0, 0, .5);
+	cursor: default;
+}
+
+form {
+	display: flex;
+	background-color: rgba(255, 255, 255, .5);
+	flex-direction: column;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+form h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+form h3 {
+	margin-top: 10px;
+}
+
+form label {
+	display: grid;
+	align-items: center;
+	grid-template-columns: auto 250px;
+	margin-top: 10px;
+}
+
+form button {
+	margin-top: 20px;
+}
+
+input {
+	font-size: 14px;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+button {
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, .5);
+}
