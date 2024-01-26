@@ -14,8 +14,9 @@ section {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+	margin-top: 25px;
 }
 
 section #add-response {
@@ -44,4 +45,20 @@ form #postcode-error {
 
 form #postcode-error.show {
 	display: block;
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		padding-top: 40px;
+	}
+
+	header ul {
+		margin-top: 10px;
+	}
+
+	form label {
+		font-size: 14px;
+		grid-template-columns: auto 200px;
+		margin-top: 5px;
+	}
 }

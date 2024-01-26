@@ -26,6 +26,10 @@ header {
 	align-items: center;
 	color: var(--color3);
 	box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+	background-image: url('../assets/logo.svg');
+	background-repeat: no-repeat;
+	background-size: 115px;
+	background-position: 25% center;
 }
 
 header #login-info {
